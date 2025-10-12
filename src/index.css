@@ -1,0 +1,45 @@
+@import "tailwindcss";
+
+*{
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url('/background/1366_2000.jpg');
+  background-size: contain;
+}
+
+
+.vt323-regular {
+  font-family: "VT323", monospace;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+.press-start-2p-regular {
+  font-family: "Press Start 2P", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'SMarioFont';
+  src: url('./assets/fonts/SuperMario.ttf') format('truetype');
+}
+
+
+.marioFont{
+  font-family: 'SMarioFont', monospace;
+  -webkit-text-stroke: 0.08em #000; /* antes eran px */
+  text-shadow:
+    -0.08em -0.08em 0 #000,
+    0.08em -0.08em 0 #000,
+    -0.08em 0.08em 0 #000,
+    0.08em 0.08em 0 #000;
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
