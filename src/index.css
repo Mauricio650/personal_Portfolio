@@ -7,7 +7,7 @@
 body {
   margin: 0;
   padding: 0;
-  background-image: url('/background/1366_2000.jpg');
+  background-image: url('/background/1366_2000.webp');
   background-size: contain;
 }
 
@@ -28,6 +28,17 @@ body {
 @font-face {
   font-family: 'SMarioFont';
   src: url('./assets/fonts/SuperMario.ttf') format('truetype');
+}
+
+
+@font-face {
+  font-family: 'MarioBros1';
+  src: url('./assets/fonts/MarioBros.ttf') format('truetype');
+}
+
+
+.mariobros1{
+  font-family: 'MarioBros1', monospace;
 }
 
 

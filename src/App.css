@@ -13,8 +13,26 @@
   }
 }
 
+.move {
+  animation: move 5s linear infinite both;
+}
 
+@keyframes move {
+  to {
+    transform: translateX(-2000px);
+  }
+}
+
+.backgroundAboutMe {
+  background-image: url('/aboutMe/');
+  background-size: contain;
+}
 
 .world {
-  background-image: url('/presentation/world2jpg.jpg');
+  background-image: url('/presentation/world2jpg.webp');
+}
+
+
+.worldAboutMe {
+  background-image: url('/aboutMe/texture.webp');
 }
