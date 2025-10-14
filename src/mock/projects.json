@@ -1,0 +1,48 @@
+[{
+    "id": 1,
+    "title": "Invoice Navigator",
+    "pathImg": "/projects/392_1x_shots_so.png",
+     "urlG": "https://github.com/Mauricio650/InvoNavigator",
+     "urlW": "https://invo-navigator.vercel.app/login",
+     "description": "Es un proyecto creado para mejorar la gestión de facturas en las empresas, proporcionando un control total sobre el estado de las facturas y su seguimiento entre departamentos."
+},
+{
+    "id": 2,
+    "title": "E-commerce Donut shop",
+    "pathImg": "/projects/392_1x_shots_so.png",
+     "urlG": "https://github.com/Mauricio650/InvoNavigator",
+     "urlW": "https://ecommerce-donuts.vercel.app/home",
+     "description": "Es un comercio electrónico diseñado para expandir la popularidad del negocio y mejorar procesos como pedidos de clientes, entregas, gestión de clientes y seguimiento de ingresos."
+},{
+    "id": 3,
+    "title": "AutoMailSender",
+    "pathImg": "/projects/392_1x_shots_so.png",
+     "urlG": "https://github.com/Mauricio650/AutoMailSender",
+     "urlW": "https://github.com/Mauricio650/AutoMailSender",
+     "description": "Este proyecto es una herramienta de automatización para el envío masivo de correos electrónicos a una lista de clientes definida en un archivo de Excel. Es ideal para tareas administrativas, recordatorios, notificaciones o cualquier flujo de correo electrónico que requiera personalización."
+},
+{
+    "id": 4,
+    "title": "CatCoinWatch",
+    "pathImg": "/projects/392_1x_shots_so.png",
+     "urlG": "https://github.com/Mauricio650/CatCoinWatch",
+     "urlW": "https://mauricio650.github.io/CatCoinWatch/",
+     "description": "Una web de seguimiento de criptomonedas con monitoreo de precios en dolares y euros a tiempo real."
+},
+{
+    "id": 5,
+    "title": "Checkers Game",
+    "pathImg": "/projects/392_1x_shots_so.png",
+     "urlG": "https://mauricio650.github.io/Damas/",
+     "urlW": "https://mauricio650.github.io/Damas/",
+     "description": "Una implementación del clásico juego de damas con una interfaz estilo Windows XP."
+},
+{
+    "id": 6,
+    "title": "SnakePokemon",
+    "pathImg": "/projects/392_1x_shots_so.png",
+     "urlG": "https://github.com/Mauricio650/SnakePokemon",
+     "urlW": "https://github.com/Mauricio650/SnakePokemon",
+     "description": "es un juego de consola que fusiona dos conceptos clásicos: el juego Snake y el mundo Pokémon. En este juego, controlas a Ash Ketchum (representado por un cuadrado ■), quien debe recolectar objetos y luchar en combates pokemon mientras evita chocar con su propia cola."
+}
+]
