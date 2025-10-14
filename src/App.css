@@ -36,3 +36,7 @@
 .worldAboutMe {
   background-image: url('/aboutMe/texture.webp');
 }
+
+.texture {
+  background-image: url('/projects/texture.webp');
+}
