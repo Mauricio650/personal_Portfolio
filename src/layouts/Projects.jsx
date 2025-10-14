@@ -1,6 +1,7 @@
 import { CardProject } from '../components/projects/CardProject'
-
+import projects from '../mock/projects.json'
 export function Projects () {
+    console.log(projects)
   return (
     <section className='m-auto border-b-[3px] border-r-4 border-r-black border-b-black  border-l-4 border-t-2 border-l-[#F6BFA8]  border-t-[#F6BFA8] texture relative overflow-hidden py-2 gap-5  rounded-sm flex  flex-col items-center w-[90%] h-[90%]'>
 
@@ -16,14 +17,15 @@ export function Projects () {
         <span className='text-[#FFD200] text-shadow-md text-shadow-black'>s</span>
       </h2>
 
-      <CardProject
-        id={1} title='Invoice navigator'
-        pathImg='/projects/392_1x_shots_so.png'
-        urlG='https://github.com/Mauricio650/InvoNavigator'
-        urlW='https://invo-navigator.vercel.app/login'
-        description='it is a project created to improve invoices management in companies, providing full control over invoices status and tracking across departments.'
-      />
-
+        <div className='w-full h-full 
+        grid grid-cols-[repeat(auto-fill,minmax(300px,1fr))] gap-5 p-4 justify-items-center justify-center items-center
+         overflow-auto'>
+            {
+                projects.map(p => {
+                    return <CardProject key={p.id} {...p}></CardProject>
+                })
+            }
+    </div>
     </section>
   )
 }

@@ -1,7 +1,7 @@
 export function AboutMe () {
   return (
     <section id='aboutMe' className='m-auto relative overflow-hidden py-2 justify-between  rounded flex  flex-col items-center w-[90%] h-[90%]'>
-      <h2 class='marioFont text-4xl sm:text-6xl text-center lg:text-4xl 2xl:text-8xl'>
+      <h2 className='marioFont text-4xl sm:text-6xl text-center lg:text-4xl 2xl:text-8xl'>
         <span className='text-[#029ED9] text-shadow-md text-shadow-black'>S</span>
         <span className='text-[#FFD200] text-shadow-md text-shadow-black'>o</span>
         <span className='text-[#E62B11] text-shadow-md text-shadow-black'>b</span>
