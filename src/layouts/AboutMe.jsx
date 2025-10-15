@@ -22,7 +22,7 @@ export function AboutMe () {
       {/* platform's texture */}
       <section className='w-full h-[200px]  worldAboutMe rounded' />
 
-      <img className='w-[200px] filter drop-shadow-2xl drop-shadow-black/50 move absolute right-[-100px] bottom-15 md:w-[300px]  2xl:w-[500px]' src='/public/aboutMe/bullet.webp' alt="Mario bros's bullet" />
+      <img className='w-[200px] filter drop-shadow-2xl drop-shadow-black/50 move absolute right-[-100px] bottom-15 md:w-[300px]  2xl:w-[500px]' src='/aboutMe/bullet.webp' alt="Mario bros's bullet" />
 
     </section>
   )
