@@ -38,13 +38,13 @@ body {
 
 
 .mariobros1{
-  font-family: 'MarioBros1', monospace;
+  font-family: 'MarioBros1', "VT323", monospace;
 }
 
 
 .marioFont{
-  font-family: 'SMarioFont', monospace;
-  -webkit-text-stroke: 0.08em #000; /* antes eran px */
+  font-family: 'SMarioFont', "Press Start 2P", monospace;
+  -webkit-text-stroke: 0.08em #000; 
   text-shadow:
     -0.08em -0.08em 0 #000,
     0.08em -0.08em 0 #000,

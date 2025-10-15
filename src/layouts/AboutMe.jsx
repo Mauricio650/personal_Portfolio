@@ -1,3 +1,5 @@
+import { AboutMeC } from '../components/aboutMe/AboutMeC'
+
 export function AboutMe () {
   return (
     <section id='aboutMe' className='m-auto relative overflow-hidden py-2 justify-between  rounded flex  flex-col items-center w-[90%] h-[90%]'>
@@ -14,13 +16,7 @@ export function AboutMe () {
 
       <section className='w-full flex justify-center items-center'>
 
-        <article className='vt323-regular text-center bg-[#6D89FF]/70 p-2 w-full text-md md:w-1/2 md:text-2xl lg:text-sm xl:text-xl 2xl:text-2xl flex flex-col lg:flex-row items-center gap-5 text-white'>
-          <img className='md:w-[200px] lg:w-[150px] xl:w-[200px] w-[140px] rounded-lg' src='/aboutMe/myPhoto2.webp' alt='' />
-          <p>
-            Soy una persona dedicada y apasionada por el desarrollo de software. Me gusta aprender, mejorar y crear cosas nuevas. Soy responsable y disciplinado con mi trabajo, siempre busco hacer las cosas bien y entender el “por qué” detrás de cada línea de código.
-            Disfruto los retos y me motiva ver cómo las ideas se convierten en soluciones reales.
-          </p>
-        </article>
+        <AboutMeC />
       </section>
 
       {/* platform's texture */}
