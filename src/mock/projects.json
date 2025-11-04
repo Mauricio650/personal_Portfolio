@@ -8,6 +8,15 @@
      "description": "Es un proyecto creado para mejorar la gestión de facturas en las empresas, proporcionando un control total sobre el estado de las facturas y su seguimiento entre departamentos."
 },
 {
+    "id": 7,
+    "title": "Looped: Hair salon",
+    "pathImg": "/projects/looped.webp",
+     "urlG": "https://github.com/Mauricio650/LandingPage_Looped",
+     "urlW": "https://landing-page-looped.vercel.app/",
+     "type": ["Frontend"],
+     "description": "Lading page diseñada para un salon de belleza con el fin de escalarla mas adelante"
+},
+{
     "id": 2,
     "title": "E-commerce Donuts",
     "pathImg": "/projects/ecommerceProject.webp",

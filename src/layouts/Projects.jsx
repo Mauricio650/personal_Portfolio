@@ -1,7 +1,6 @@
 import { CardProject } from '../components/projects/CardProject'
 import projects from '../mock/projects.json'
 export function Projects () {
-  console.log(projects)
   return (
     <section className='m-auto shadow-2xl/20 p-1 border-b-[3px] border-r-4 border-r-black border-b-black  border-l-4 border-t-2 border-l-[#F6BFA8]  border-t-[#F6BFA8] texture relative overflow-hidden py-2 gap-5  rounded-sm flex  flex-col items-center w-[90%] h-[90%]'>
 
